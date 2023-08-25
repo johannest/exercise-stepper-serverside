@@ -76,9 +76,12 @@
 			<artifactId>vaadin-themes</artifactId>
 		</dependency>
 
-		<!-- TODO <dependency> <groupId>com.vaadin.training.clientside</groupId> 
-			<artifactId>exercise-numeric-textfield</artifactId> <version>1.0-SNAPSHOT</version> 
-			</dependency> -->
+		<!-- Fix this dependency by running install on the numeric textfield solution -->
+		<dependency>
+			<groupId>com.vaadin.training.clientside</groupId>
+			<artifactId>solution-numeric-textfield</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
